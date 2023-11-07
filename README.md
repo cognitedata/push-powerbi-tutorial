@@ -36,3 +36,5 @@ On high level, the notebook does the following:
     7. Push the payload to Power BI (if the push succeeds, insert the new cursor in the time series)
 3. Deploy the function to Cognite Functions
 4. Creates a schedule for the function to run every 5 minutes
+
+In this example we're using a time series subscription as a mechanism to fetch data points from CDF. This can be replaced by any other logic that fits your use case.
